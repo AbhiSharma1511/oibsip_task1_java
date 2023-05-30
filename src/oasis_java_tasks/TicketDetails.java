@@ -1,12 +1,12 @@
 package oasis_java_tasks;
 
 public class TicketDetails {
+
     private String name ;
-    private String trainNumber = (int)(Math.random()*10000) +"";
-    private String PNRNumber = (int)(Math.random()*1000000000) +"";
+//    private final String trainNumber = (int)(Math.random()*10000) +"";
+//    private final String PNRNumber = (int)(Math.random()*1000000000) +"";
+//    private final String trainName = "ExpressTrain"+(int)(Math.random()*10+1);
 
-
-    private String trainName = "ExpressTrain"+(int)(Math.random()*10+1);
     private String classType, date, initialLocation, destination;
 
     public TicketDetails(String name, String classType, String date, String initialLocation, String destination) {
@@ -66,16 +66,16 @@ public class TicketDetails {
         this.destination = destination;
     }
 
-    public String getTrainNumber() {
-        return trainNumber;
-    }
-
-    public String getPNRNumber() {
-        return PNRNumber;
-    }
-
-    public String getTrainName() {
-        return trainName;
-    }
+//    public String getTrainNumber() {
+//        return trainNumber;
+//    }
+//
+//    public String getPNRNumber() {
+//        return PNRNumber;
+//    }
+//
+//    public String getTrainName() {
+//        return trainName;
+//    }
 
 }
